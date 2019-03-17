@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         }) { (success) in
             self.animationSuccess = self.animationSuccess ? false :true
             self.view.layoutIfNeeded()
+            print("12321")
         }
     }
    
