@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
 
     func AnimatedView() {
-        
+        print("+++ commit 3")
        // self.view.layoutIfNeeded()
         
         UIView.animate(withDuration: 0.5, animations: {
